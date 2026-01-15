@@ -178,3 +178,17 @@ body::before {
 .hide {
   display: none;
 } 
+
+.section-message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.section-message img{
+  height: 180px;
+  width: fit-content;
+}
