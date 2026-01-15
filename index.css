@@ -175,10 +175,6 @@ body::before {
   height: 35px;
 }
 
-.hide {
-  display: none;
-}
-
 .section-message {
   display: flex;
   flex-direction: column;
