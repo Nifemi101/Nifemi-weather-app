@@ -177,9 +177,9 @@ body::before {
 
 .hide {
   display: none;
-} 
+}
 
-.section-message{
+.section-message {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,14 +188,7 @@ body::before {
   margin-top: 25px;
 }
 
-.section-message img{
+.section-message img {
   height: 180px;
   width: fit-content;
-}
-
-@media (max-width: 450px) {
-  .quiz-app{
-    width: 90%;
-    padding: 15px;
-  }
 }
