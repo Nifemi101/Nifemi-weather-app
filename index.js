@@ -17,6 +17,7 @@ const initApp = function () {
 
   const apikey = "581c43b6f8409983ad90e5757b890265";
 
+  //Added event listeners
   searchButton.addEventListener("click", () => {
     if (cityInput.value.trim() != "") {
       updateWeatherInfo(cityInput.value);
@@ -32,7 +33,7 @@ const initApp = function () {
       cityInput.blur();
     }
   });
-
+  // Fetch Api data
   async function getFetchData(endPoint, city) {
     const apiUrl = `https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apikey}&units=metric`;
 
