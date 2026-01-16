@@ -102,6 +102,10 @@ body::before {
   gap: 5px;
 }
 
+.current-date {
+  margin-left: 2px;
+}
+
 .weather-summary-container {
   display: flex;
   justify-content: space-between;
