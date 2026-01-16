@@ -134,5 +134,4 @@ const initApp = function () {
 };
 
 initApp();
-
 //Note to self: remove the console logs later
